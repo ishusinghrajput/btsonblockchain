@@ -1,0 +1,277 @@
+body{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+background-size: cover;
+}
+
+.cover{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.20),
+        rgba(0, 0, 0, 0.20)
+      ),
+      url('coveranimated.gif');
+    padding-bottom: 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boblogo{
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.pagesocial{
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+.pageopensea{
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    margin-left: 20px;
+}
+
+.pagetwitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    margin-left: 15px;
+}
+
+.welcome{
+    font-size: 70px;
+    max-width: 270px;
+    height: auto;
+    font-weight: bold;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.openseabtn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
+    height: fit-content;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(12, 112, 194);
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.what{
+    background-color: aquamarine;
+    display: inline;
+}
+
+.introtxt{
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Comic Neue', cursive;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.how{
+    background-color: rgb(96, 8, 179);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.howtxt{
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+    font-size: 28px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.first{
+    font-weight: 550;
+    font-family: 'Comic Neue', cursive;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.second{
+    font-weight: 550;
+    font-family: 'Comic Neue', cursive;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.third{
+    font-weight: 550;
+    font-family: 'Comic Neue', cursive;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.nextdiv{
+    background: url("coveranimated.gif");
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.benefitsdiv{
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+
+.benefitstxt{
+    font-weight: 600;
+    color: black;
+    font-family: 'Comic Neue', cursive;
+    font-size: 28px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.firstbenefit{
+    font-weight: 550;
+    font-family: 'Comic Neue', cursive;
+    color: black;
+    font-size: 18px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.secondbenefit{
+    font-weight: 550;
+    font-family: 'Comic Neue', cursive;
+    color: black;
+    font-size: 18px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.whyonpolydiv{
+    background-color: rgb(66, 7, 122);
+    max-width: 100%;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 5px;
+}
+
+.whyonpoly{
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+    font-size: 28px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.whyonpolytxt{
+    font-weight: 550;
+    font-family: 'Comic Neue', cursive;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.meetartistdiv{
+    background-color: rgb(43, 101, 226);
+    max-width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.meetartisttxt{
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+    font-size: 28px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.meetpic{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.aboutartist{
+    font-weight: 550;
+    font-family: 'Comic Neue', cursive;
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.insta{
+    width: 50px;
+    height: 50px;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    margin-left: 20px;
+}
