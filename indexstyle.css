@@ -59,6 +59,7 @@ background-size: cover;
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .openseabtn{
@@ -68,6 +69,7 @@ background-size: cover;
     padding-bottom: 10px;
     width: fit-content;
     height: fit-content;
+    font-family: 'Shippori Antique B1', sans-serif;
     color: #fff;
     border-radius: 25px;
     font-weight: bold;
@@ -166,9 +168,10 @@ background-size: cover;
     padding: 20px;
     padding-bottom: 30px;
     margin: auto;
-    display: grid;
-    justify-content: right;
+    display: grid; 
+    margin-left: 30px;
     margin-right: 5px;
+    justify-content: right;
 }
 
 .benefitstxt{
